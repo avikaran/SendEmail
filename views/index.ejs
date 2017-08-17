@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Send Email Application</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Send Email Application</h1>
+
+    <h3>Draft your email below </h3>
+      <form method="POST" action="/sendmail">
+        <label>To </label> </br>
+        <input type="text" name="to"></br>
+
+        <label>From </label> </br>
+        <input type="text" name="from"></br>
+
+        <label>Subject </label> </br>
+        <input type="text" name="subject"></br><br>
+
+        <label>Message Body </label> </br>
+        <input type="text" name="message"></br><br>
+
+        <input type="submit" value="submit">
+      </form>
+  </body>
+</html>
